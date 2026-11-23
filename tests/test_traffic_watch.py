@@ -221,7 +221,7 @@ class TestPidAndSession:
         assert watch._win_pid_is_alive(123, api=api) is True
 
     def test_build_session_id_with_fixed_clock(self):
-        moment = dt.datetime(2026, 1, 2, 3, 4, 5, 6000, tzinfo=dt.timezone.utc)
+        moment = dt.datetime(2026, 1, 2, 3, 4, 5, 6000, tzinfo=dt.UTC)
         assert build_session_id(moment, 123) == "watch-20260102T030405006000Z-123"
 
     def test_build_session_id_defaults(self):
