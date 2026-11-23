@@ -43,7 +43,7 @@ def _to_seconds(line: str) -> int | None:
             y, mo, d, h, mi, s = (int(g) for g in groups)
             try:
                 return int(datetime.datetime(y, mo, d, h, mi, s,
-                                             tzinfo=datetime.timezone.utc).timestamp())
+                                             tzinfo=datetime.UTC).timestamp())
             except ValueError:
                 return None
         if len(groups) == 1:  # epoch
