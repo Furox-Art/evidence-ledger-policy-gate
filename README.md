@@ -322,6 +322,12 @@ Part of the Furox scientific-computing portfolio: independently versioned projec
 - [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) — literature MCP server with a hash-chained evidence ledger.
 - [repocraft](https://github.com/Furox-Art/repocraft) — byte-deterministic project scaffolding.
 
+## npm command
+
+Install the matching `nomosguard` Python release in an active environment,
+then run `npm install -g nomosguard`. The npm command launches
+the Python CLI. Set `NOMOSGUARD_PYTHON` to its Python executable when needed.
+
 ## License
 
 Apache-2.0
