@@ -257,7 +257,7 @@ def normalize_gelf(line: str) -> NormalizedLine | None:
         import datetime
         try:
             ts = datetime.datetime.fromtimestamp(
-                float(ts), tz=datetime.timezone.utc
+                float(ts), tz=datetime.UTC
             ).strftime("%H:%M:%S")
         except (ValueError, OSError, OverflowError):
             # Keep the raw timestamp when it cannot be converted.
