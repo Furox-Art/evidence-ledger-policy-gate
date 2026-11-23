@@ -1,5 +1,5 @@
 {
-  "name": "nomosguard",
+  "name": "@furox-art/nomosguard",
   "version": "0.7.12",
   "description": "CLI wrapper for NomosGuard's deterministic security policy and evidence tools",
   "license": "Apache-2.0",
