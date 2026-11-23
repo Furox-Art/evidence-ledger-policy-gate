@@ -165,7 +165,7 @@ def pid_is_alive(pid: object) -> bool:
 
 
 def build_session_id(now: _dt.datetime | None = None, pid: int | None = None) -> str:
-    moment = now or _dt.datetime.now(_dt.timezone.utc)
+    moment = now or _dt.datetime.now(_dt.UTC)
     return f"watch-{moment.strftime('%Y%m%dT%H%M%S%fZ')}-{pid or os.getpid()}"
 
 

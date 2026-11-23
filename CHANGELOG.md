@@ -5,6 +5,10 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.7.12 — 2026-11-23
+
+- Use the Python 3.11+ UTC alias throughout the affected timestamp code and keep its lint gate passing.
+
 ## 0.7.11 — 2026-11-07
 
 - Python 3.10 support dropped: `requires-python` is now `>=3.11`, the 3.10

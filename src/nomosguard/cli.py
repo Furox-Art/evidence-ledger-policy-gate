@@ -158,7 +158,7 @@ def cmd_start(args: argparse.Namespace) -> int:
             {
                 "fingerprint": ca.fingerprint(),
                 "detail": trust_detail,
-                "installed_at": _dt.datetime.now(_dt.timezone.utc).isoformat(),
+                "installed_at": _dt.datetime.now(_dt.UTC).isoformat(),
             },
         )
         trust_installed = True
@@ -173,7 +173,7 @@ def cmd_start(args: argparse.Namespace) -> int:
             else "not installed; trust the CA manually or pass --install-ca"
         )
 
-    started_at = _dt.datetime.now(_dt.timezone.utc).isoformat()
+    started_at = _dt.datetime.now(_dt.UTC).isoformat()
     session_id = build_session_id()
     try:
         stop_path(root).unlink()

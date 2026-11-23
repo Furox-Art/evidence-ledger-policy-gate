@@ -23,7 +23,7 @@ import re
 import tempfile
 from collections.abc import Iterator
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import IO, Any
 
@@ -433,7 +433,7 @@ class EvidenceLedger:
         """
         claim.validate()
         seq = len(self._entries) + 1
-        timestamp = datetime.now(timezone.utc).isoformat()
+        timestamp = datetime.now(UTC).isoformat()
         prev_hash = self.head_hash
         entry_hash = self._entry_hash(seq, claim, prev_hash)
         entry = LedgerEntry(
