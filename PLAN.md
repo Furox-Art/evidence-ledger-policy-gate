@@ -5,10 +5,10 @@
 
 ## Current state (verified 2026-10-30)
 
-**Repository:** https://github.com/Furox-Art/nomosguard (public, Apache-2.0)
+**Repository:** https://github.com/Furox-Art/evidence-ledger-policy-gate (public, Apache-2.0)
 **Version:** 0.7.10 — on PyPI since 2026-10-21 with a PEP 740 provenance
 attestation; GitHub release
-[`v0.7.10`](https://github.com/Furox-Art/nomosguard/releases/tag/v0.7.10)
+[`v0.7.10`](https://github.com/Furox-Art/evidence-ledger-policy-gate/releases/tag/v0.7.10)
 **Tests:** 1115 passed locally on Python 3.12 (2026-10-30)
 **CI:** green on Python 3.10 / 3.11 / 3.12 / 3.13 + zero-dependency check
 (run 40952174554, commit c60e3ce)

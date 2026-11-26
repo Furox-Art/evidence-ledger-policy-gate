@@ -1,5 +1,5 @@
 {
-  "name": "nomosguard-cli",
+  "name": "evidence-ledger-policy-gate",
   "version": "0.7.12",
   "description": "CLI wrapper for NomosGuard's deterministic security policy and evidence tools",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Furox-Art/nomosguard.git"
+    "url": "git+https://github.com/Furox-Art/evidence-ledger-policy-gate.git"
   },
   "publishConfig": {
     "access": "public"

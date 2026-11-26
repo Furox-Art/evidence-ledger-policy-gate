@@ -34,7 +34,7 @@ Python 3.10 or newer is required; CI runs 3.10, 3.11, 3.12, and 3.13 on Linux,
 plus 3.12 on Windows.
 
 ```bash
-git clone https://github.com/Furox-Art/nomosguard.git
+git clone https://github.com/Furox-Art/evidence-ledger-policy-gate.git
 cd nomosguard
 python -m pip install -e ".[dev]"
 ```

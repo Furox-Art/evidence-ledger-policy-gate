@@ -19,7 +19,7 @@ suspected problem against the latest `0.7.x` source before reporting it.
 
 **Use GitHub's private vulnerability reporting:**
 
-<https://github.com/Furox-Art/nomosguard/security/advisories/new>
+<https://github.com/Furox-Art/evidence-ledger-policy-gate/security/advisories/new>
 
 That opens a private thread with the maintainer, and nothing becomes public
 until an advisory is published. Please do not open a public issue for a

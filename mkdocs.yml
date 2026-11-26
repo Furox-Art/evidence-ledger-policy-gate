@@ -3,7 +3,7 @@ site_description: >-
   Deterministic security reasoning core: a hash-chained evidence ledger, an
   attack-path rule engine, and a fail-closed policy gate.
 site_author: Furox-Art
-repo_url: https://github.com/Furox-Art/nomosguard
+repo_url: https://github.com/Furox-Art/evidence-ledger-policy-gate
 repo_name: Furox-Art/nomosguard
 copyright: Apache-2.0 licensed.
 

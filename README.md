@@ -320,12 +320,12 @@ Part of the Furox scientific-computing portfolio: independently versioned projec
 - [plan-auditor](https://github.com/Furox-Art/plan-auditor) — evidence-based completion gate for coding agents.
 - [eq-layer](https://github.com/Furox-Art/eq-layer) — interaction-policy layer that decides how an agent speaks.
 - [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) — literature MCP server with a hash-chained evidence ledger.
-- [repocraft](https://github.com/Furox-Art/repocraft) — byte-deterministic project scaffolding.
+- [repocraft](https://github.com/Furox-Art/deterministic-recipe-scaffolder) — byte-deterministic project scaffolding.
 
 ## npm command
 
 Install the matching `nomosguard` Python release in an active environment,
-then run `npm install -g nomosguard-cli`. The npm command launches
+then run `npm install -g evidence-ledger-policy-gate`. The npm command launches
 the Python CLI. Set `NOMOSGUARD_PYTHON` to its Python executable when needed.
 
 ## License

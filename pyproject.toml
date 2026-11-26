@@ -48,9 +48,9 @@ dev = ["pytest>=8.0"]
 nomosguard = "nomosguard.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Furox-Art/nomosguard"
-Documentation = "https://github.com/Furox-Art/nomosguard/blob/main/README.md"
-Repository = "https://github.com/Furox-Art/nomosguard"
+Homepage = "https://github.com/Furox-Art/evidence-ledger-policy-gate"
+Documentation = "https://github.com/Furox-Art/evidence-ledger-policy-gate/blob/main/README.md"
+Repository = "https://github.com/Furox-Art/evidence-ledger-policy-gate"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/nomosguard"]
