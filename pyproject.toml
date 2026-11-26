@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "nomosguard"
+name = "evidence-ledger-policy-gate"
 version = "0.7.12"
 description = "Deterministic security reasoning core: hash-chained evidence ledger, attack-path rule engine, and a fail-closed policy gate. LLMs may produce evidence and explain decisions; they never cross the decision boundary."
 readme = "README.md"

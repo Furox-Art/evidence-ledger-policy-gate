@@ -3,9 +3,9 @@ name: Release to PyPI
 # Fires when a GitHub Release is published, or on manual dispatch from main.
 # Prereleases are never published. The trusted OIDC publisher must be
 # registered on PyPI (pypi.org/manage/account/publishing) for:
-#   project: nomosguard
+#   project: evidence-ledger-policy-gate
 #   owner:   Furox-Art
-#   repo:    nomosguard
+#   repo:    evidence-ledger-policy-gate
 #   workflow: release-pypi.yml
 #   environment: pypi
 # Before that registration, the publish step fails with invalid-publisher —
@@ -193,7 +193,7 @@ jobs:
           import urllib.request
           from pathlib import Path
 
-          project = "nomosguard"
+          project = "evidence-ledger-policy-gate"
           version = os.environ["PKG_VER"]
           existing = {}
           try:
@@ -231,7 +231,7 @@ jobs:
           import urllib.request
           from pathlib import Path
 
-          project = "nomosguard"
+          project = "evidence-ledger-policy-gate"
           version = os.environ["PKG_VER"]
           expected = sorted(
               path.name

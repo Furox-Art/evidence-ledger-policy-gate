@@ -1,4 +1,6 @@
-# NomosGuard
+# Evidence Ledger Policy Gate (NomosGuard)
+
+The PyPI distribution is `evidence-ledger-policy-gate`; the CLI command remains `nomosguard`. The legacy `nomosguard` PyPI project is no longer updated.
 
 **LLM produces evidence. Deterministic machinery decides.**
 
@@ -195,7 +197,7 @@ Committed samples: `examples/sample_toolcalls.jsonl`,
 
 ```bash
 # consumer install from PyPI
-pip install nomosguard
+pip install evidence-ledger-policy-gate
 # editable install from this checkout (development)
 pip install -e .
 python -m nomosguard.demo    # committed scenario: derivation + BLOCK
